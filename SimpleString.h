@@ -5,10 +5,11 @@
 class SimpleString
 {
 private:
-    char *data;
+    char *data; // c-string as the underlying data in the string class
 
 public:
-    // Constructor
+    // Constructor (default constructor and a parameter constructor due to 
+    // the default argument)
     SimpleString(const char *str = "");
 
     // Copy constructor
